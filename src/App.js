@@ -52,7 +52,7 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <h1>RandShift随机分组工具</h1>
+          <h1>RandShift在线随机分组</h1>
           <p>一个按照日期和姓名对人员进行随机分组的工具</p>
           <form className="input-form" onSubmit={this.handleSubmit}>
             <span>输入待查询的日期:</span>

@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "RandShift",
+  "name": "RandShift：一个按照日期和姓名对人员进行随机分组的工具",
   "icons": [
     {
       "src": "favicon.ico",
