@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+div.group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+div.person {
+  margin: 4px;
+  max-width: 175px;
+  min-width: 100px;
+  border-radius: 10px;
+  flex: 0 0 30%;
+}
+
+p.date,
+form.input-form {
+  text-align: right;
+}
+
+input#input-date {
+  max-width: 130px;
+}
+
+header {
+  max-width: 600px;
+  margin: auto;
+}
