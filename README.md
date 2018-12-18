@@ -1,44 +1,31 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## RandShift 项目简介
 
-## Available Scripts
+[RandShift](https://scanthony.github.io/RandShift) 是一个一个按照日期和姓名对人员进行随机分组的工具。本项目可用于各企事业单位，实现根据日期对轮班的工作人员随机分组。
 
-In the project directory, you can run:
+RandShift 采用 [Create React App](https://github.com/facebook/create-react-app)、[moment.js](https://momentjs.com/)、[object-hast](https://www.npmjs.com/package/object-hash)和[query-string](https://www.npmjs.com/package/query-string)等开源库和框架搭建。
 
-### `npm start`
+## 如何使用 Randshift
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+如果直接访问本项目的 URL：
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+[https://scanthony.github.io/RandShift/](https://scanthony.github.io/RandShift/)
 
-### `npm test`
+会看到用于演示的几个常见姓名和两个工作区。
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+使用带有 query 的 URL 来访问本项目，可以自行定制人员和分组情况。举例：
 
-### `npm run build`
+(https://scanthony.github.io/RandShift/?p1=AAAA&p2=BBBB&p3=CCCC&p4=DDDD&p5=EEEE&g1=1-1&g2=2-1&n1=Group-1&n2=Group-2&n3=Group-3)[https://scanthony.github.io/RandShift/?p1=AAAA&p2=BBBB&p3=CCCC&p4=DDDD&p5=EEEE&g1=1-1&g2=2-1&n1=Group-1&n2=Group-2&n3=Group-3]
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+p1、p2、p3、p4、p5 参数为五个工作人员的姓名，n1、n2、n3 参数为三个分组的名称，g1、g2 参数为分组方式。
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+如果有多个分组方式，RandShift 会根据日期随机选择一个分组方式。
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+“1-1”代表第一组 1 人，第二组 1 人，余下的人员分配至最后一组。
 
-### `npm run eject`
+“2-1”代表第一组 2 人，第二组 1 人，余下的人员分配至最后一组，以此类推。
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+一旦 p、 n 和 g 这三项参数确定，且在网页界面设置的日期确定，分组结果即可被确定下来，无论何时查询，结果都一致。因此，轮休的工作人员可以提前查询到自己在未来某一天的工作区域分配结果。
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 版权信息
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+采用 [MIT 协议](https://github.com/scanthony/RandShift/blob/master/LICENSE)。

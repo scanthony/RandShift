@@ -52,7 +52,8 @@ class App extends Component {
     return (
       <div className="App">
         <header>
-          <h1>分组结果</h1>
+          <h1>RandShift随机分组工具</h1>
+          <p>一个按照日期和姓名对人员进行随机分组的工具</p>
           <form className="input-form" onSubmit={this.handleSubmit}>
             <span>输入待查询的日期:</span>
             <br />
@@ -94,6 +95,13 @@ class App extends Component {
             ))}
           </div>
         )}
+        <footer>
+          <p>
+            <a href="https://github.com/scanthony/RandShift">
+              在GitHub查看本项目的开源代码。
+            </a>
+          </p>
+        </footer>
       </div>
     );
   };

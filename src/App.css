@@ -29,3 +29,8 @@ header {
   max-width: 600px;
   margin: auto;
 }
+
+footer a {
+  text-decoration: none;
+  color: gray;
+}
