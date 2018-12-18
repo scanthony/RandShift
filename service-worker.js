@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/RandShift/precache-manifest.d0910d92444a61e86221a2854127f5b9.js"
+  "/RandShift/precache-manifest.ab129725fdca5195eb77937eb973fbd0.js"
 );
 
 workbox.clientsClaim();
