@@ -14,7 +14,7 @@ RandShift 采用 [Create React App](https://github.com/facebook/create-react-app
 
 使用带有 query 的 URL 来访问本项目，可以自行定制人员和分组情况。举例：
 
-(https://scanthony.github.io/RandShift/?p1=AAAA&p2=BBBB&p3=CCCC&p4=DDDD&p5=EEEE&g1=1-1&g2=2-1&n1=Group-1&n2=Group-2&n3=Group-3)[https://scanthony.github.io/RandShift/?p1=AAAA&p2=BBBB&p3=CCCC&p4=DDDD&p5=EEEE&g1=1-1&g2=2-1&n1=Group-1&n2=Group-2&n3=Group-3]
+[https://scanthony.github.io/RandShift/?p1=AAAA&p2=BBBB&p3=CCCC&p4=DDDD&p5=EEEE&g1=1-1&g2=2-1&n1=Group-1&n2=Group-2&n3=Group-3](https://scanthony.github.io/RandShift/?p1=AAAA&p2=BBBB&p3=CCCC&p4=DDDD&p5=EEEE&g1=1-1&g2=2-1&n1=Group-1&n2=Group-2&n3=Group-3)
 
 p1、p2、p3、p4、p5 参数为五个工作人员的姓名，n1、n2、n3 参数为三个分组的名称，g1、g2 参数为分组方式。
 
