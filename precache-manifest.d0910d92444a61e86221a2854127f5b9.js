@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0b4f9cebaf235013379c",
+    "revision": "a034e23450ffe1917b74",
     "url": "/RandShift/static/css/main.6fc9450c.chunk.css"
   },
   {
-    "revision": "0b4f9cebaf235013379c",
-    "url": "/RandShift/static/js/main.0b4f9ceb.chunk.js"
+    "revision": "a034e23450ffe1917b74",
+    "url": "/RandShift/static/js/main.a034e234.chunk.js"
   },
   {
     "revision": "a9aa9a14640e4f35c116",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/RandShift/static/js/runtime~main.39cc8b95.js"
   },
   {
-    "revision": "b163cf11203e6b30c9d0709c5955fe2a",
+    "revision": "9dd1183156f0a227277da5f9837237f7",
     "url": "/RandShift/index.html"
   }
 ];
