@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/RandShift/static/js/runtime~main.39cc8b95.js"
   },
   {
-    "revision": "9dd1183156f0a227277da5f9837237f7",
+    "revision": "07c6f781a9d265786100998c9652c224",
     "url": "/RandShift/index.html"
   }
 ];
